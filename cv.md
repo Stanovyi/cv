@@ -31,3 +31,15 @@ const reverseString = (string) => {
   return newString;
 };
 ```
+
+## Experience
+I have experience with pixel-perfect and adaptive HTML layouts, also I have done several websites and small projects using javascript.
+
+## Education
+* **Master's degree Computer Science**\
+*Open International University of Human Development 'Ukraine'*\
+Graduation: 2019 – 2021
+
+* **Bachelor degree Software engineering**\
+*Open International University of Human Development 'Ukraine'*\
+Graduation: 2015 – 2019
