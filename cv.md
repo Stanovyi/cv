@@ -43,3 +43,8 @@ Graduation: 2019 – 2021
 * **Bachelor degree Software engineering**\
 *Open International University of Human Development 'Ukraine'*\
 Graduation: 2015 – 2019
+
+## Languages
+* English (I took English courses when I was at university and went to a tutor for a while. My level is close to A2. I can read technical literature, watch and listen in English, and speak a little.)
+* Russian (native)
+* Ukrainian (native)
