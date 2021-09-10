@@ -16,3 +16,18 @@ Hardworking and enthusiastic developer with high knowledge and skills in work
 * Javascript
 * Git
 * Figma/Photoshop
+
+## Code example
+*Reversed Strings Kata from **Codewars***
+```javascript
+const reverseString = (string) => {
+  const length = string.length;
+  let newString = '';
+
+  for(let i = 0; i < length; i++) {
+      newString = `${string[i]}${newString}`;
+  }
+
+  return newString;
+};
+```
