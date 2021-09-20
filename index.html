@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <main class="resume">
+        <aside class="resume-left">
+          <figure>
+            <img src="./img/profile-photo.jpg" width="230" alt="Profile image">
+          </figure>
+          <div class="resume-content">
+            <div class="resume-info">
+              <h1>Ihor Stanovyi</h1>
+              <p>Junior Front-end Developer</p>
+
+              <section class="contacts">
+                <h2>Contacts</h2>
+
+                <ul class="contacts-list">
+                  <li>
+                    <img src="./img/phone.png" alt="phone">
+                    <a href="tel:380679818054">(380)67-981-80-54</a>
+                  </li>
+                  <li>
+                    <img src="./img/mail.png" alt="mail">
+                    <a href="mailto:igor.stanevoj@gmail.com">igor.stanevoj@gmail.com</a>
+                  </li>
+                  <li>
+                    <img src="./img/linkedin.png" alt="linkenin">
+                    <a href="https://www.linkedin.com/in/ihor-stanovyi">Linkedin</a>
+                  </li>
+                  <li>
+                    <img src="./img/facebook.png" alt="facebook">
+                    <a href="https://www.facebook.com/Stanevoy/">Facebook</a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+            <section class="resume-skills">
+              <h2>Skills</h2>
+
+              <ul class="skills-list">
+                <li>
+                  <h3>HTML5</h3>
+                  <div class="progress-bar">
+                    <div style="width: 90%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <h3>CSS3/SASS</h3>
+                  <div class="progress-bar">
+                    <div style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <h3>Javascript</h3>
+                  <div class="progress-bar">
+                    <div style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <h3>Git</h3>
+                  <div class="progress-bar">
+                    <div style="width: 90%;"></div>
+                  </div>
+                </li>
+                <li>
+                  <h3>Figma</h3>
+                  <div class="progress-bar">
+                    <div style="width: 75%;"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+            <section class="resume-item languages">
+              <h2>Languages</h2>
+
+              <ul>
+                <li>
+                  English (Close to A2)<br>
+                  I can read technical literature, watch and listen in English, and speak a little.
+                </li>
+                <li>Ukrainian (native)</li>
+                <li>Russian (native)</li>
+              </ul>
+            </section>
+          </div>
+        </aside>
+
+        <div class="resume-right">
+          <section class="about">
+            <h2>About me</h2>
+            <p>Hardworking and enthusiastic developer with high knowledge and skills in working with the front-end stack.
+              I
+              also pay a lot of attention to my soft skills. I
+              think the ability to work in a team is no less important than hard skills. For fast professional growth, I
+              try
+              to constantly study new technologies and approaches to software development, it gives me the
+              ability to learn quickly.
+              My goal is to become a professional developer which creates high-quality products.</p>
+          </section>
+          <section class="experience">
+            <h2>Experience</h2>
+
+            <p>Experience I have experience with pixel-perfect and adaptive HTML layouts, also I have done several
+              websites
+              and small projects using javascript.</p>
+          </section>
+          <section class="education">
+            <h2>Education</h2>
+
+            <ul class="education-list">
+              <li>
+                <strong>Master’s degree Computer Science</strong><br>
+                <em>Open International University of Human Development ‘Ukraine’</em>
+                Graduation: 2019 – 2021
+              </li>
+              <li>
+                <strong>Bachelor degree Software engineering</strong><br>
+                <em>Open International University of Human Development ‘Ukraine’</em>
+                Graduation: 2015 – 2019
+              </li>
+            </ul>
+          </section>
+          <section class="code-example">
+            <h2>Code example</h2>
+
+            <p><em>Reversed Strings Kata from <strong>Codewars</strong></em></p>
+
+            <pre>
+            <code class="javascript">
+    const reverseString = (string) => {
+      const length = string.length;
+      let newString = '';
+    
+      for(let i = 0; i &lt; length; i++) {
+          newString = `${string[i]}${newString}`;
+      }
+    
+      return newString;
+    };
+            </code>
+            </pre>
+          </section>
+        </div>
+      </main>
+
+      <footer>
+        <span>
+          <img src="./img/github.png" width="30" alt="github">
+          <a href="https://github.com/Stanovyi">Github page</a>
+        </span>
+
+        <span>2021</span>
+
+        <a href="https://rs.school/js/">
+          <img src="img/rs_school_js.svg" alt="rsschool logo" width="64" height="64">
+        </a>
+      </footer>
+    </div>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
