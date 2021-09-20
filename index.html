@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </head>
   <body>
     <div class="wrapper">
@@ -137,16 +139,16 @@
 
             <pre>
             <code class="javascript">
-    const reverseString = (string) => {
-      const length = string.length;
-      let newString = '';
-    
-      for(let i = 0; i &lt; length; i++) {
-          newString = `${string[i]}${newString}`;
-      }
-    
-      return newString;
-    };
+const reverseString = (string) => {
+  const length = string.length;
+  let newString = '';
+
+  for(let i = 0; i &lt; length; i++) {
+      newString = `${string[i]}${newString}`;
+  }
+
+  return newString;
+};
             </code>
             </pre>
           </section>
@@ -166,8 +168,5 @@
         </a>
       </footer>
     </div>
-    
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
